@@ -4,9 +4,8 @@
 * [Description](#description)
 * [Essential Knowledge Required](#essential-knowledge-required)
 * [Softwares Used](#softwares-used)
-* [How To Conduct Simulations](#how-to)
-* [Current Features](#current-features) 
-* [Upcoming Features](#upcoming-features)  
+* [How To Conduct Simulations](#how-to-conduct-simulations)
+* [Completed Work](#completed-work) 
 * [How to Contribute](#how-to-contribute)
 
 
@@ -20,8 +19,10 @@ Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to
 * Aerodynamics of Quadcopters and Coaxial Drones (Basic)
 * Internal Stresses and Strains (Basic)
 * Fluid Mechanics (Basic) 
-* Forces and Moments 
-* Angular Kinematics (Basic) 
+* Forces and Moments/Torques 
+* Moment of Inertia
+* Angular Kinematics (Basic)  
+* Natural Frequencies and Resonance (Basic) 
 
 ## Softwares Used 
 * Autodesk CFD 2021
@@ -29,13 +30,16 @@ Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to
 * OpenFoam 
 * FreeFem 
 
-## How to 
+## How to Conduct Simulations
 ### Workflow of CFD Simulations 
 
 ```mermaid
 graph TD;
     Pre-Processing-->Processing;
     Processing-->Post-Processing;
+    Post-Processing-->Next-Steps;
+    Next-Steps-->Pre-Processing;
+    
 ```
 ### Pre-Processing 
 * Geometry used in simulations are prepared by removing any unwanted material/holes/edges  
@@ -44,18 +48,34 @@ graph TD;
 
 ### Processing 
 * Solvers are selected based on simulation requirements 
-* Turbulence Models are selected 
-* Time Step size selected (for transient simulations) 
-* Monitoring values of residuals and variables of interest 
+* Turbulence Models are selected based on simulation requirement--> typically k-epsilon
+* Select Time Step using Courant-Freidrichs-Lewy(CFL) criterion(for transient simulations) 
+* Monitor values of residuals and variables of interest 
 
-### Post
+### Post-Processing 
+* Observe velocity distribution by using **Paraview** 
+* Obtain forces and torques acting on drones from simulation
+* Validate results by using research papers to compare  
+
+### Next Steps 
+1. Obtain moment of inertia of drone about each global axia(x, y and z) 
+2. Use angular kinematics equations to calculate the angular acceleration drone experiences due to the torque. 
+3. Calculate degrees of rotation about each axis, θ, using angular acceleration 
+4. Rotate the drone accordingly and repeat the same steps for the simulations using the new orientation
+
+### Workflow of FEA Simulations 
 
 
+## Completed work 
+* Steady State Simulations of a model of DJI Mavic Pro 
+* Static Stress Analysis of a DJI Mavic Pro model 
+* Modal Analysis of DJI Mavic Pro Model
 
-## Current Features 
-Steady State Simulations of Coaxial Drone 
-
-## Upcoming Features 
 ## How to Contribute
+* Research for validation cases for CFD and FEA simulations for drones 
+* Complete Mesh independence study for drones 
+* Complete Source codes for Steady State CFD simulations of Coaxial Drone 
+* Complete Source code for Stress and Model Analysis of Coaxial Drone  
+
 
  
