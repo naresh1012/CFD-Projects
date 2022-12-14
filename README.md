@@ -15,7 +15,7 @@ Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to
 ## Essential Knowledge Required
 * General CFD workflow
 * General FEA workflow
-* Discretization--> Finite Element Method and Finite Volume Method (Basic)
+* Discretization--> Finite Element Method(FEM) and Finite Volume Method(FVM) (Basic)
 * Aerodynamics of Quadcopters and Coaxial Drones (Basic)
 * Internal Stresses and Strains (Basic)
 * Fluid Mechanics (Basic) 
@@ -64,7 +64,22 @@ graph TD;
 4. Rotate the drone accordingly and repeat the same steps for the simulations using the new orientation
 
 ### Workflow of FEA Simulations 
+Workflow of FEA Simulations is similar to that of CFD's. 
 
+### Pre-Processing 
+* Prepare geometry by simplifying 3d model i.e. remove unwanted components, holes, small edges 
+* Assign materials to different parts of the model (different materials have different **Yield Strengths**) 
+* Define constraints on model to control degree of freedom(Translation & Rotation) of components 
+* Define structural loads on model 
+* Discretize domain using FEM
+
+### Processing 
+* Run the simulation
+
+### Post-Processing
+* Observe safety factor of model and ensure it is > 1.5 
+* Observe areas of stress concentration and conclude why 
+* Research and validate using results from research papers
 
 ## Completed work 
 * Steady State Simulations of a model of DJI Mavic Pro 
