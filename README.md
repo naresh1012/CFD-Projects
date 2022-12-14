@@ -5,8 +5,7 @@
 * [Essential Knowledge Required](#essential-knowledge-required)
 * [Softwares Used](#softwares-used)
 * [How To Conduct Simulations](#how-to-conduct-simulations)
-* [Completed Work](#completed-work) 
-* [How to Contribute](#how-to-contribute)
+* [Upcoming Tasks](#upcoming-tasks)
 
 
 ## Description 
@@ -41,23 +40,23 @@ graph TD;
     Next-Steps-->Pre-Processing;
     
 ```
-### Pre-Processing 
+#### Pre-Processing 
 * Geometry used in simulations are prepared by removing any unwanted material/holes/edges  
 * Depending on scenario, boundary conditions and initial conditions are defined 
 * Domain is discretized, mesh independence study to be conducted
 
-### Processing 
+#### Processing 
 * Solvers are selected based on simulation requirements 
 * Turbulence Models are selected based on simulation requirement--> typically k-epsilon
 * Select Time Step using Courant-Freidrichs-Lewy(CFL) criterion(for transient simulations) 
 * Monitor values of residuals and variables of interest 
 
-### Post-Processing 
+#### Post-Processing 
 * Observe velocity distribution by using **Paraview** 
 * Obtain forces and torques acting on drones from simulation
 * Validate results by using research papers to compare  
 
-### Next Steps 
+#### Next Steps 
 1. Obtain moment of inertia of drone about each global axia(x, y and z) 
 2. Use angular kinematics equations to calculate the angular acceleration drone experiences due to the torque. 
 3. Calculate degrees of rotation about each axis, θ, using angular acceleration 
@@ -66,31 +65,25 @@ graph TD;
 ### Workflow of FEA Simulations 
 Workflow of FEA Simulations is similar to that of CFD's. 
 
-### Pre-Processing 
+#### Pre-Processing 
 * Prepare geometry by simplifying 3d model i.e. remove unwanted components, holes, small edges 
 * Assign materials to different parts of the model (different materials have different **Yield Strengths**) 
 * Define constraints on model to control degree of freedom(Translation & Rotation) of components 
 * Define structural loads on model 
 * Discretize domain using FEM
 
-### Processing 
-* Run the simulation
+#### Processing 
+* Run the simulation, unlike CFD, FEA does not contain different solvers. Depending on softwarees used, different studies i.e. static stress analysis, modal analysis or transient analysis will have different solutions
 
-### Post-Processing
+#### Post-Processing
 * Observe safety factor of model and ensure it is > 1.5 
 * Observe areas of stress concentration and conclude why 
 * Research and validate using results from research papers
 
-## Completed work 
-* Steady State Simulations of a model of DJI Mavic Pro 
-* Static Stress Analysis of a DJI Mavic Pro model 
-* Modal Analysis of DJI Mavic Pro Model
-
-## How to Contribute
-* Research for validation cases for CFD and FEA simulations for drones 
-* Complete Mesh independence study for drones 
+## Upcoming Tasks
+* Complete Mesh independence study for Coaxial drone (either automatically by writing a script or manually refining mesh)
 * Complete Source codes for Steady State CFD simulations of Coaxial Drone 
-* Complete Source code for Stress and Model Analysis of Coaxial Drone  
+* Complete Source code for Stress and Modal Analysis of Coaxial Drone  
 
 
  
