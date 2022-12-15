@@ -9,7 +9,7 @@
 
 
 ## Description 
-Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to simulate drones in harsh environmental conditions. This is to understand the airflow around drones as well as analyse internal stresses developed within the propellers of the drones. It is done with the aim of conducting virtual tests before physical testing. 
+Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to simulate drones in harsh environmental conditions. This is to understand the airflow around drones as well as analyse internal stresses developed within the propellers of the drones. It is done with the aim of conducting virtual tests before physical testing.Thus, steady state CFD simulations are done on the coaxial drone to understand effects of wind gusts on the drone body. As a follow up, stress analysis and modal analysis is done on the drone to analyse internal stresses in the drone and pinpoint frequencies where there is instability in the drone respectively.
 
 ## Essential Knowledge Required
 * General CFD workflow
@@ -28,6 +28,7 @@ Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to
 * Autodesk Fusion 360 
 * OpenFoam 
 * FreeFem 
+
 
 ## How to Conduct Simulations
 ### Workflow of CFD Simulations 
@@ -63,7 +64,7 @@ graph TD;
 4. Rotate the drone accordingly and repeat the same steps for the simulations using the new orientation
 
 ### Workflow of FEA Simulations 
-Workflow of FEA Simulations is similar to that of CFD's. 
+Workflow of FEA Simulations is similar to that of CFD's.
 
 #### Pre-Processing 
 * Prepare geometry by simplifying 3d model i.e. remove unwanted components, holes, small edges 
