@@ -86,5 +86,7 @@ Workflow of FEA Simulations is similar to that of CFD's.
 * Complete Source codes for Steady State CFD simulations of Coaxial Drone 
 * Complete Source code for Stress and Modal Analysis of Coaxial Drone  
 
+## Useful Resources
+* [CFD Lecture Videos](https://www.youtube.com/@fluidmechanics101)
 
  
