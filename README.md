@@ -9,7 +9,7 @@
 
 
 ## Description 
-Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to simulate drones in harsh environmental conditions. This is to understand the airflow around drones as well as analyse internal stresses developed within the propellers of the drones. It is done with the aim of conducting virtual tests before physical testing.Thus, steady state CFD simulations are done on the coaxial drone to understand effects of wind gusts on the drone body. As a follow up, stress analysis and modal analysis is done on the drone to analyse internal stresses in the drone and pinpoint frequencies where there is instability in the drone respectively. The drone model used for the simulations is shown below. 
+Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to simulate drones in harsh environmental conditions. This is to understand the airflow around drones as well as analyse internal stresses developed within the propellers of the drones. It is done with the aim of conducting virtual tests before physical testing.In this case, a coaxial drone model is used as shown below.Steady state CFD simulations are done on the coaxial drone to understand effects of wind gusts on the drone body. As a follow up, stress analysis and modal analysis are done on the drone to analyse internal stresses in the drone and pinpoint frequencies where there is instability in the drone respectively.
 
 <p align="center">
   <img width="500" height="460" src="https://user-images.githubusercontent.com/58727564/207768601-baebc290-835f-4f85-bf19-1c5e8e861ebc.png">
@@ -29,10 +29,10 @@ Computational Fluid Dynamics(CFD) and Finite ELement Analysis(FEA) is applied to
 * Natural Frequencies and Resonance (Basic) 
 
 ## Softwares Used 
-* Autodesk CFD 2021
-* Autodesk Fusion 360 
-* OpenFoam 
-* FreeFem 
+* [Autodesk CFD 2021](https://knowledge.autodesk.com/support/cfd)
+* [Autodesk Fusion 360](https://www.autodesk.com.sg/products/fusion-360/overview?term=1-YEAR&tab=subscription)
+* [OpenFoam](https://www.openfoam.com/) 
+* [FreeFem](https://freefem.org/) 
 
 
 ## How to Conduct Simulations
@@ -67,6 +67,7 @@ graph TD;
 2. Use angular kinematics equations to calculate the angular acceleration drone experiences due to the torque. 
 3. Calculate degrees of rotation about each axis, θ, using angular acceleration 
 4. Rotate the drone accordingly and repeat the same steps for the simulations using the new orientation
+
 
 ### Workflow of FEA Simulations 
 Workflow of FEA Simulations is similar to that of CFD's.
