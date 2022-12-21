@@ -16,7 +16,7 @@ Computational Fluid Dynamics(CFD) and Finite Element Analysis(FEA) is applied to
 </p>
 
 
-## Essential Knowledge Required
+## Good to know
 * General CFD workflow
 * General FEA workflow
 * Discretization--> Finite Element Method(FEM) and Finite Volume Method(FVM) (Basic)
