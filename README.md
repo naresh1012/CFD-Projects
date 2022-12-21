@@ -2,7 +2,7 @@
 ## Table of contents
 
 * [Description](#description)
-* [Essential Knowledge Required](#essential-knowledge-required)
+* [Good To Know](#good-to-know)
 * [Softwares Used](#softwares-used)
 * [How To Conduct Simulations](#how-to-conduct-simulations)
 * [Upcoming Tasks](#upcoming-tasks)
