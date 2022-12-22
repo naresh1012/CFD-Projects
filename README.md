@@ -80,7 +80,7 @@ Workflow of FEA Simulations is similar to that of CFD's.
 * Discretize domain using FEM
 
 #### Processing 
-* Run the simulation, unlike CFD, FEA does not contain different solvers. Depending on softwarees used, different studies i.e. static stress analysis, modal analysis or transient analysis will have different solutions
+* Run the simulation, unlike CFD, FEA does not contain different solvers. Depending on softwares used, different studies i.e. static stress analysis, modal analysis or transient analysis will have different solutions.
 
 #### Post-Processing
 * Observe safety factor of model and ensure it is > 1.5 
