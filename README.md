@@ -2,7 +2,7 @@
 ## Table of contents
 
 * [Description](#description)
-* [Good To Know](#good-to-know)
+* [Topics to Explore](#topics-to-explore)
 * [Softwares Used](#softwares-used)
 * [How To Conduct Simulations](#how-to-conduct-simulations)
 * [Upcoming Tasks](#upcoming-tasks)
@@ -16,7 +16,7 @@ Computational Fluid Dynamics(CFD) and Finite Element Analysis(FEA) is applied to
 </p>
 
 
-## Good to know
+## Topics to Explore
 * General CFD workflow
 * General FEA workflow
 * Discretization--> Finite Element Method(FEM) and Finite Volume Method(FVM) (Basic)
