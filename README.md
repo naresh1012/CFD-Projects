@@ -90,7 +90,7 @@ Workflow of FEA Simulations is similar to that of CFD's.
 ## Upcoming Tasks
 * Complete Mesh independence study for Coaxial drone (either automatically by writing a script or manually refining mesh)
 * Complete Source codes for Steady State CFD simulations of Coaxial Drone 
-* Complete Source code for Stress and Modal Analysis of Coaxial Drone  
+* Complete Source code for Stress Analysis of Coaxial Drone  
 
 ## Useful Resources
 * [CFD Lecture Videos](https://www.youtube.com/@fluidmechanics101) 
