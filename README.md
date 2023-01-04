@@ -94,7 +94,7 @@ Workflow of FEA Simulations is similar to that of CFD's.
 
 ## Useful Resources
 * [CFD Lecture Videos](https://www.youtube.com/@fluidmechanics101) 
-* [My Beginner CFD and FEA Notes](https://docs.google.com/document/d/1XW_Lc4cf8SOezIlxcTdriGmZuJqpQ40c5-uJfjIPsYc/edit?usp=sharing)  
+* [My Beginner's Guide to CFD and FEA](https://docs.google.com/document/d/1XW_Lc4cf8SOezIlxcTdriGmZuJqpQ40c5-uJfjIPsYc/edit?usp=sharing)  
 * [OpenFOAM Tutorials](https://www.openfoam.com/documentation/tutorial-guide) 
 * [FreeFEM Tutorials](https://doc.freefem.org/tutorials/index.html#tutorial) 
 * [Natural Frequencies and Resonance Lecture](https://www.youtube.com/watch?v=5I67zUzhv6Q) 
