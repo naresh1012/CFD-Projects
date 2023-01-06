@@ -9,7 +9,7 @@
 
 
 ## Description 
-Computational Fluid Dynamics(CFD) and Finite Element Analysis(FEA) is applied to simulate drones in harsh environmental conditions. This is to understand the airflow around drones as well as analyse internal stresses developed within the propellers of the drones. It is done with the aim of conducting virtual tests before physical testing. In this case, a coaxial drone model is used as shown below (Drone model was open source and found on [grabcad](https://grabcad.com/library)). Steady state CFD simulations are done on the coaxial drone to understand effects of wind gusts on the drone body. As a follow up, stress analysis and modal analysis are done on the drone to analyse internal stresses in the drone and pinpoint frequencies where there is instability in the drone respectively.
+Computational Fluid Dynamics(CFD) and Finite Element Analysis(FEA) is applied to simulate drones in harsh environmental conditions. This is to understand the airflow around drones as well as analyse internal stresses developed within the propellers of the drones. It is done as a premature step before conducting physical testing. In this case, a coaxial drone model is used as shown below (Drone model was open source and found on [grabcad](https://grabcad.com/library)). Steady state CFD simulations are done on the coaxial drone to understand effects of wind gusts on the drone body. As a follow up, stress analysis and modal analysis are done on the drone to analyse internal stresses in the drone and pinpoint frequencies where there is instability in the drone respectively.
 
 <p align="center">
   <img width="500" height="460" src="https://user-images.githubusercontent.com/58727564/207768601-baebc290-835f-4f85-bf19-1c5e8e861ebc.png">
