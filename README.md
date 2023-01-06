@@ -35,7 +35,7 @@ Computational Fluid Dynamics(CFD) and Finite Element Analysis(FEA) is applied to
 * [FreeFem](https://freefem.org/) 
 
 
-## How to Conduct Simulations
+## Simulation Workflows
 ### Workflow of CFD Simulations 
 
 ```mermaid
